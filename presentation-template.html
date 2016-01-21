@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TITLE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="author" content="AUTHOR"/>
+    <meta name="description" content="DESCRIPTION"/>
+    <!-- Serve with: "python -m SimpleHTTPServer 8000" -->
+    <style type="text/css">
+      <!-- Theming inspired by http://www.jmlilly.net/liminal/talks/template.html -->
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      
+      body {background: #272822; color: #fff; font-family: 'Roboto'; letter-spacing:0.025em;}
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+      }
+      .remark-slide-content {background-color: #272822;background-repeat: no-repeat;background-position: center top;
+         background-size: 100% auto;background-size: cover; }
+      .remark-slide-content h1 { font-size: 2.5em; color:#fff;font-weight: bold;letter-spacing:0.05em}
+      .remark-slide-content h2 { font-size: 2em;color:#fff;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
+      .remark-slide-content  h3 { font-size: 1.4em;color:#606060;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
+      .remark-slide-content p,ol,ul { font-size: 1.2em;  color:#f3f3f3;}
+      .remark-slide-content li { text-align: left;  font-size: 90%; }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-fading { z-index: 9; } 
+      .remark-slide img { max-height: 450px;max-width:900px;}
+      .remark-slide-container {transition: opacity 0.5s ease-out;opacity: 0;}
+      .remark-visible {transition: opacity 0.5s ease-out;opacity: 1;}
+        
+      /* Two-column layout */
+      .left-column {
+        width: 50%;
+      float: left;
+      text-align: left;
+      }
+      .right-column {
+        width: 49%;
+      float: right;
+      text-align: left;
+        padding-top: 0em;
+        margin-top: 0em;
+    }
+
+    .left-column img, .right-column img { max-height: 400px;max-width:500px;}
+    
+    .footnote {  
+    text-align: center;
+    font-size: 60%;
+    }
+       
+    /* Some special classes */
+    .titlepage {display: block;position: relative;width: 90%;margin: 1px auto;background: #272822; opacity: 0.6; border-radius: 10px;}
+    .title {font-family:'Yanone Kaffeesatz'; font-size: 2.5em; color:#f3f3f3;font-weight:bold;letter-spacing:0.05em;}
+    .subtitle {font-family:'Yanone Kaffeesatz'; color: #f3f3f3; font-weight:bold;font-size: 2em; }
+    .author {font-family:'Yanone Kaffeesatz';font-size: 1.4em; color:#f3f3f3;font-weight:bold;letter-spacing:0.02em;}  
+    .coauthor {font-family:'Yanone Kaffeesatz';font-size: 1.0em; color:#f3f3f3;font-weight:bold;letter-spacing:0.02em;}  
+    .institution {font-family:'Yanone Kaffeesatz';font-size: 1.0em;}
+    .date {font-family:'Yanone Kaffeesatz';font-size: 1.0em;font-style: italic;  color:#f3f3f3;}
+    .huge{font-family:'Yanone Kaffeesatz';font-size: 5.0em;}
+    .large{font-family:'Yanone Kaffeesatz';font-size: 2.0em;}
+    .cite {font-size: 0.8em; color:#33AA99;font-style: italic; }
+    .strike {color:salmon;text-decoration:underline; }
+    
+    /*Set color scheme for links.*/    
+    a {text-decoration: none;color:#f92672; }
+    /*Setting link properties is particular, do not change order below*/   
+    a:visited {color:#f92672;}
+    a:hover {color:white;}  
+    a:active, a#active {color:#f92672;} 
+      
+    .blockquote {display: block;text-align:left; position: relative;width: 95%;margin: 20px auto;padding: 5px;font-style: italic;font-size:90%; background: rgba(255, 255, 255, 0.05);box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+    .blockquote p:first-child,.blockquote p:last-child {display: inline-block;  color:#f3f3f3;}
+    .blockquote p:last-child {font-size: 80%;align:right;}
+    
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+ 
+    </textarea>
+    <!-- Grab from https://github.com/gnab/remark-->
+    <script src="remark-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript"> 
+      var slideshow = remark.create({ratio: '16:9',countIncrementalSlides: false, sourceUrl: 'source.md'});
+    </script>
+    <!-- Grab from https://github.com/William-Yeh/remark-zoom --> 
+    <script src="remark-zoom.js" type="text/javascript"></script>
+  </body>
+</html>
